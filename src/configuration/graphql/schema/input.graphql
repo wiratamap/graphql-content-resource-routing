@@ -1,0 +1,4 @@
+input LoginRequest {
+    email: String!
+    password: String!
+}
