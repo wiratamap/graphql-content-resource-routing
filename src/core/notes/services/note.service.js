@@ -42,7 +42,7 @@ const createNote = async (args, context) => {
 
   const result = await postRequest(authorization, newNote);
 
-  if (result.status !== 200) throw new Error(result.statusText);
+  if (result.status !== 201) throw new Error(result.statusText);
 
   return result.json();
 };
