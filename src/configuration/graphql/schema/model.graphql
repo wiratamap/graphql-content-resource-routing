@@ -3,3 +3,11 @@ type LoginResult {
     message: String
     token: String
 }
+
+type Note {
+    _id: String
+    title: String
+    content: String
+    createdDate: String
+    createdBy: String
+}

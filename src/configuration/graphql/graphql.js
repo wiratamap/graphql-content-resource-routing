@@ -14,5 +14,5 @@ const schema = makeExecutableSchema({
 module.exports = expressGraphql({
   schema,
   rootValue: resolvers,
-  graphiql: true,
+  customFormatErrorFn: error => ({ message: error.message }),
 });

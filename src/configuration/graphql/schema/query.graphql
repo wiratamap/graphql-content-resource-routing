@@ -1,4 +1,5 @@
 type Query {
     message: String,
     login(loginRequest: LoginRequest): LoginResult
+    fetchNotes: [Note]
 }
