@@ -53,7 +53,7 @@ describe('note.service', () => {
         reqheaders: {
           authorization: context.headers.authorization,
         },
-      }).post('/notes', args.newNote).reply(200, createdNote);
+      }).post('/notes', args.newNote).reply(201, createdNote);
 
       const result = await createNote(args, context);
 
