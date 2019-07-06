@@ -18,7 +18,7 @@ describe('login.service', () => {
     it('should return response when successfully hit the endpoint', async () => {
       const args = {
         loginRequest: {
-          email: 'john.doe@btpn.com',
+          email: 'john.doe@example.com',
           password: 'P@ssw0rd',
         },
       };
@@ -36,7 +36,7 @@ describe('login.service', () => {
 
       const args = {
         loginRequest: {
-          email: 'john.doe@btpn.com',
+          email: 'john.doe@example.com',
           password: 'P@ssw0rd',
         },
       };
