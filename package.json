@@ -20,7 +20,7 @@
     "lodash": "^4.17.11",
     "log4js": "^4.2.0",
     "merge-graphql-schemas": "^1.5.8",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "node-fetch": "^2.6.0",
     "sinon": "^7.3.2"
   },
